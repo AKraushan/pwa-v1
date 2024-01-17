@@ -1,0 +1,8 @@
+@import "./variable";
+@import "./app.color";
+@import "./app.material";
+@import "./material.table";
+
+.appearance-revert{
+    appearance: revert;
+}

@@ -1,0 +1,319 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "user": [
+    {
+      "id": 1,
+      "userId": 1,
+      "roleId": 1,
+      "schoolId": 1,
+      "firstName": "Anjan",
+      "lastName": "Admin",
+      "middleName": "Kumar",
+      "fullName": "Anjan Kumar",
+      "password": "admin123",
+      "role": "Admin",
+      "userName": "Adminuser",
+      "mobileNo": "1234567890",
+      "state": "Telangana",
+      "city": "Hyderabad",
+      "branchId": 1,
+      "address": "address 1",
+      "email": "admin@gmail.com",
+      "dateOfBirth": "25-12-2002",
+      "isActive": true,
+      "isSave": false,
+      "postalNo": "500016"
+    },
+    {
+      "id": 2,
+      "userName": "ritik12345",
+      "password": "ritik12345",
+      "firstName": "Ritik",
+      "middleName": "kumar",
+      "lastName": "Raushan",
+      "mobileNo": "9876567890",
+      "email": "ritik@gmail.com",
+      "dateOfBirth": "2000-12-24",
+      "city": "HYderabad",
+      "state": "TS",
+      "postalNo": "501510",
+      "userId": 1,
+      "schoolId": 1,
+      "roleId": 2,
+      "branchId": 1,
+      "role": "Student",
+      "fullName": "",
+      "address": "Mannegudda",
+      "isActive": true
+    },
+    {
+      "userName": "parent01",
+      "password": "parent01",
+      "firstName": "Parent",
+      "middleName": "",
+      "lastName": "User",
+      "mobileNo": "0987656789",
+      "email": "parent@gmail.com",
+      "dateOfBirth": "2023-12-16",
+      "city": "Hyd",
+      "state": "TS",
+      "postalNo": "300987",
+      "userId": 1,
+      "schoolId": 1,
+      "roleId": 4,
+      "branchId": 1,
+      "role": "Parent",
+      "fullName": "",
+      "address": "Test Address",
+      "isActive": true,
+      "id": 3
+    },
+    {
+      "userName": "teacher01",
+      "password": "teacher01",
+      "firstName": "Teacher",
+      "middleName": "",
+      "lastName": "User",
+      "mobileNo": "098789080",
+      "email": "teacher@gmail.com",
+      "dateOfBirth": "2023-12-01",
+      "city": "Hyd",
+      "state": "TS",
+      "postalNo": "501510",
+      "userId": 1,
+      "schoolId": 1,
+      "roleId": 3,
+      "branchId": 1,
+      "role": "Teacher",
+      "fullName": "",
+      "address": "Dummay Address",
+      "isActive": true,
+      "id": 4
+    }
+  ],
+  "roleList": [
+    {
+      "roleId": 1,
+      "role": "Admin"
+    },
+    {
+      "roleId": 2,
+      "role": "Student"
+    },
+    {
+      "roleId": 3,
+      "role": "Teacher"
+    },
+    {
+      "roleId": 4,
+      "role": "Parent"
+    }
+  ],
+  "event": [
+    {
+      "name": "Demo Class",
+      "date": "2023-12-15",
+      "startTime": "13:00",
+      "endTime": "13:30",
+      "description": "Please attand this demo session for more details!",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Demo Class 2",
+      "date": "2023-12-16",
+      "startTime": "13:00",
+      "endTime": "13:30",
+      "description": "Please attand this demo session for more details!"
+    },
+    {
+      "id": 3,
+      "name": "Demo Class 3",
+      "date": "2023-12-17",
+      "startTime": "13:00",
+      "endTime": "13:30",
+      "description": "Please attand this demo session for more details!"
+    },
+    {
+      "id": 4,
+      "name": "Demo Class 2",
+      "date": "2023-12-16",
+      "startTime": "13:00",
+      "endTime": "13:30",
+      "description": "Please attand this demo session for more details!"
+    }
+  ],
+  "assessments": [
+    {
+      "id": 1,
+      "name": "Angular Test",
+      "starDate": "2023-12-15",
+      "endDate": "2023-12-25",
+      "assignedClassId": 1,
+      "description": "Mandatory for all student please complete it before 25 december",
+      "scored": 0
+    }
+  ],
+  "questionMasterList": [
+    {
+      "id": 1,
+      "assessmentId": 1,
+      "question": "Who controll all the body parts?",
+      "description": "",
+      "correctAnswer": "Yes Angular is single page application, It is not reloading the page hole page while changing the router, It is only changing the component and html DOM element.",
+      "studentAnswer": "",
+      "point": 5,
+      "scoredPoint": 0,
+      "type": 1,
+      "choice": [
+        {
+          "option1": "Brain",
+          "option2": "Lunce",
+          "option3": "Kidneys",
+          "option4": "Stomach"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "assessmentId": 1,
+      "question": "Is angular is single page application",
+      "description": "",
+      "correctAnswer": "Yes Angular is single page application, It is not reloading the page hole page while changing the router, It is only changing the component and html DOM element.",
+      "studentAnswer": "",
+      "point": 5,
+      "scoredPoint": 0,
+      "type": 2,
+      "choice": [
+        {
+          "option1": "",
+          "option2": "",
+          "option3": "",
+          "option4": ""
+        }
+      ]
+    }
+  ],
+  "answerMasterList": [],
+  "class": [
+    {
+      "id": 1,
+      "branchId": 1,
+      "branchName": "Motijheel",
+      "schoolId": 2,
+      "schoolName": "Adarsh Vidya Mandir",
+      "name": "Class 1"
+    },
+    {
+      "id": 2,
+      "branchId": 1,
+      "branchName": "Motijheel",
+      "schoolId": 2,
+      "schoolName": "Adarsh Vidya Mandir",
+      "name": "Class 2"
+    },
+    {
+      "id": 3,
+      "branchId": 1,
+      "branchName": "Motijheel",
+      "schoolId": 2,
+      "schoolName": "Adarsh Vidya Mandir",
+      "name": "Class 3"
+    },
+    {
+      "id": 4,
+      "branchId": 1,
+      "branchName": "Motijheel",
+      "schoolId": 2,
+      "schoolName": "Adarsh Vidya Mandir",
+      "name": "Class 4"
+    },
+    {
+      "id": 5,
+      "branchId": 1,
+      "branchName": "Motijheel",
+      "schoolId": 2,
+      "schoolName": "Adarsh Vidya Mandir",
+      "name": "Class 5"
+    }
+  ],
+  "subject": [
+    {
+      "id": 1,
+      "classId": 1,
+      "name": "English",
+      "createdBy": 1
+    }
+  ],
+  "branch": [
+    {
+      "id": 1,
+      "name": "Motijheel",
+      "schoolName": "Adarsh Vidya Mandir",
+      "schoolId": 2,
+      "city": "Muzaffarpur",
+      "address": "Bank road, Motijheel",
+      "state": "Bihar",
+      "postalCode": "842002",
+      "contactNo": "0987890987",
+      "email": "mfpdps@gmail.com",
+      "branchCode": "MFP001"
+    },
+    {
+      "id": 2,
+      "name": "Begumpet",
+      "schoolName": "Delhi Public School",
+      "schoolId": 1,
+      "city": "Hyderabad",
+      "address": "Kundan Bag road, begumpet, Near Life Style",
+      "state": "Telangana",
+      "postalCode": "500016",
+      "contactNo": "0987678909",
+      "email": "hyddps@gmail.com",
+      "branchCode": "HYD001"
+    },
+    {
+      "id": 3,
+      "name": "Begumpet",
+      "schoolName": "Adarsh Vidya Mandir",
+      "schoolId": 2,
+      "city": "Hyderabad",
+      "address": "Begumpet",
+      "state": "Telangana",
+      "postalCode": "500016",
+      "contactNo": "98765456789",
+      "email": "hyddps@gmai.com",
+      "branchCode": "HYD001"
+    }
+  ],
+  "school": [
+    {
+      "id": 1,
+      "name": "Delhi Public School",
+      "logo": "C:\\fakepath\\124273.jpg",
+      "schoolCode": "APSHYD001"
+    },
+    {
+      "id": 2,
+      "name": "Adarsh Vidya Mandir",
+      "logo": "C:\\fakepath\\SSL error.PNG",
+      "schoolCode": "AVMMFP001"
+    }
+  ]
+}

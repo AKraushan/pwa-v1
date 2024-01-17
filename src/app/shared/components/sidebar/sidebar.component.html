@@ -1,0 +1,24 @@
+<div class="app-logo textcenter-my-3">
+    <h2 class="text-center">LPA Logo</h2>
+</div>
+<div class="profile">
+    <div class="d-flex">
+        <img src="../../../../assets/images/default-user.png" alt="">
+    </div>
+    <p class="profile-name text-center">{{userInfo.firstName}} {{userInfo.middleName}}</p>
+</div>
+<div class="divider"></div>
+<div class="list-group" *ngIf="userInfo.role == 'Admin'">
+    <a routerLink="/dashboard" routerLinkActive="active" class="list-group-item list-group-item-action " aria-current="true">
+        Home
+    </a>
+    <!-- <a routerLink="/assignment" routerLinkActive="active" class="list-group-item list-group-item-action">Assignment</a> -->
+    <a routerLink="/assessments" routerLinkActive="active" class="list-group-item list-group-item-action">Assessments</a>
+    <a routerLink="/event" routerLinkActive="active" class="list-group-item list-group-item-action">Event</a>
+    <a routerLink="/users" routerLinkActive="active" class="list-group-item list-group-item-action">Users</a>
+    <a routerLink="/school" routerLinkActive="active" class="list-group-item list-group-item-action">School</a>
+    <a routerLink="/branch" routerLinkActive="active" class="list-group-item list-group-item-action">Branch</a>
+    <a routerLink="/class" routerLinkActive="active" class="list-group-item list-group-item-action">Class</a>
+    <a routerLink="/subject" routerLinkActive="active" class="list-group-item list-group-item-action">Subject</a>
+    <a (click)="doLogout()" class="list-group-item list-group-item-action">Logout</a>
+</div>
